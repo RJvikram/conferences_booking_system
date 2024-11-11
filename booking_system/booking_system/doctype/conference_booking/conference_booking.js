@@ -1,4 +1,3 @@
-alert("calling")
 frappe.ui.form.on('Conference Booking', {
     start_time: function(frm) {
         frm.trigger('validate_start_time');
